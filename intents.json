@@ -1,0 +1,30 @@
+{"intents":
+[
+    {"tag": "greeting",
+     "patterns": ["Hey", "Hello", "What's up?", "How is it going?", "Hi"],
+     "responses": ["Hello", "Hello, what can i do for you?"]},
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Goodbye"]
+    },
+    {"tag": "age",
+     "patterns": ["how old are you?", "how old is angga?", "age?"],
+     "responses": ["My owner Angga is 21 years old", "21 years old"]
+    },
+    {"tag": "name",
+     "patterns": ["what is your name?", "what should i call you?", "what's your name?", "who are you?", "can you tell me your name?"],
+     "responses": ["I'm Lugo the assistent of Angga"]
+    },
+    {"tag": "shop",
+     "patterns": ["id like to buy something", "what are your products?", "what do you recommend?", "What are you selling?"],
+     "responses": ["Cocaine"]
+    },
+    {"tag": "hours",
+     "patterns": ["when are you guys open", " what are your hours", "hours of operation"],
+     "responses": ["24/7"]
+    },
+    {"tag": "stocks",
+     "patterns": ["what stocks do i own?", "how are my shares?", "what companies am i investing in?"],
+     "responses": ["You own the following shares: AAPL, FB, NVDA and an ETF of the S&P 500 Index!"]
+    }
+]}
